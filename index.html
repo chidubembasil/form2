@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="assest/css/style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <fieldset>
+                <form action="page/message.html">
+                    <div>
+                        <label for="fname">First Name:</label>
+                        <br>
+                        <input pattern="[A-Za-z]{2,19}" title="must start with a capital letter e.g John" type="text" name="firstname" id="fname" required class="job" autofocus autocomplete="on">
+                    </div>
+                    <div>
+                        <label for="lname">Last Name:</label>
+                        <br>
+                        <input pattern="[A-Za-z]{2,19}" title="use only letter e.g John" type="text" name="Lastname" id="lname" required class="job" autocomplete="on">
+                    </div>
+                    <div>
+                        <label for="mname">Middle Name:</label>
+                        <br>
+                        <input pattern="[A-Za-z]{2,19}" title="use only letters e.g John " type="text" name="Middlename" id="mname" placeholder="Optional" class="job" autocomplete="on">
+                    </div>
+                    <div>
+                        <label for="uname">Username:</label>
+                        <br>
+                        <input pattern="[a-zA-Z0-9]{2,19}" title="Use letters, numbers e.g John, James1" type="text" name="username" id="uname" required class="job" autocomplete="on">
+                    </div>
+                    <div>
+                        <label for="pin">Password:</label>
+                        <br>
+                        <input pattern="[a-zA-Z0-9@$&-!_]{7,19}" title="Password can allow a-z, A-Z, 0-9, @, $, &, _, -, ! " type="text" name="username" id="uname" required class="job" autocomplete="on">
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number:</label>
+                        <br>
+                        <select name="" id="numb" >
+                            <option value="0" selected disabled></option>
+                            <option value="1">+234</option>
+                            <option value="2">+55</option>
+                            <option value="3">+1</option>
+                            <option value="4">+33</option>
+                            <option value="5">+52</option>
+                            <option value="6">+31</option>
+                            <option value="7">+61</option>
+                            <option value="8">+54</option>
+                            <option value="9">+49</option>
+                            <option value="10">+233</option>
+                            <option value="11">+20</option>
+                        </select>
+                        <input pattern="[0-9]{10,11}" type="tel" name="phone number" id="phone"required class="job" autocomplete="on">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <br>
+                        <input pattern="[a-zA-Z0-9@.]{1,20}" title="Use a-z, A-Z, 0-9 @ and ." type="email" name="email" id="mail" required class="job" autocomplete="on">
+                    </div>
+                    <div>
+                        <label for="date">Date of Birth:</label>
+                        <br>
+                        <input type="date" name="birth" id="date" max="2017-12-31" min="1923-01-01" required class="job">
+                    </div>
+                    <div>
+                        <label for="sex">Gender:</label>
+                        <input type="radio" name="gender" id="sex">Male
+                        <input type="radio" name="gender" id="sex"required>Female
+                    </div>
+                    <button type="submit">Sign up</button>
+                    <p>Already have an account? <a href="login.html">Log in</a></p>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="tel:+2348104948786"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></a><span>Phone Number</span>
+            <a href="mailto:chidbasil@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="id1"><path d="M 3.460938 6.5625 L 26.539062 6.5625 L 26.539062 24.707031 L 3.460938 24.707031 Z M 3.460938 6.5625 " clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#id1)"><path fill="rgb(6.269836%, 5.879211%, 5.099487%)" d="M 24.230469 11.101562 L 15 16.769531 L 5.769531 11.101562 L 5.769531 8.832031 L 15 14.503906 L 24.230469 8.832031 Z M 24.230469 6.5625 L 5.769531 6.5625 C 4.492188 6.5625 3.472656 7.578125 3.472656 8.832031 L 3.460938 22.441406 C 3.460938 23.695312 4.492188 24.707031 5.769531 24.707031 L 24.230469 24.707031 C 25.507812 24.707031 26.539062 23.695312 26.539062 22.441406 L 26.539062 8.832031 C 26.539062 7.578125 25.507812 6.5625 24.230469 6.5625 " fill-opacity="1" fill-rule="nonzero"/></g></svg></a><span>Email</span>
+            </div>
+    </footer>
+</body>
+</html>

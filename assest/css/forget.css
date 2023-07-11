@@ -1,0 +1,78 @@
+body{
+    background-image: url(../../assest/image/pexels-benjamin-suter-3617500.jpg);
+    /* overflow-y: hidden; */
+    color: green;
+}
+.job{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+input:focus{
+    outline: 1px solid green;
+
+}
+#numb{
+    width: 4rem;
+    height: 2.2rem;
+}
+label{
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+select{
+    position: absolute;
+    font-size: 1rem;
+}
+select, #phone{
+    border-collapse: collapse;
+}
+#phone{
+    text-align: right;
+}
+option{
+    font-size: 1rem;
+}
+button:hover{
+    outline:1px solid green ;
+}
+button{
+    width: 76%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    line-height: 3rem;
+    color: green;
+}
+fieldset{
+    width: 20%;
+    height: 30rem;
+    margin: 100px auto;
+    outline: 2px solid green;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+div{
+    line-height: 2rem;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+   margin-left: 20px;
+   margin-top: 30px;
+}
+a{
+    color: black;
+}
+p{
+    padding-left: 40px;
+}
+ svg{
+    color: blue;
+    margin: auto;
+    display: block;
+    
+ }   
+
+

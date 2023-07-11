@@ -1,0 +1,20 @@
+body{
+    background-image: url(../image/pexels-benjamin-suter-3617500.jpg);
+    color: green;
+}
+legend{
+    text-align: center;
+    font-size: 3rem;
+}
+fieldset
+{
+    width: 35%;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 2px solid green;
+    outline: 2px solid green;
+    margin: auto;
+}
+p{
+    text-align: center;
+}
